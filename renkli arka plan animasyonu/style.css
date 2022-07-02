@@ -1,0 +1,25 @@
+h1 {
+    padding-left: 35%;
+}
+
+body {
+    background: linear-gradient(-45deg, #F2EEE3, #E9D1D0, #3378FF, #9442FE, #F0DED1, #DEC4A7);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    height: 100vh;
+    -webkit-animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+aside {}
